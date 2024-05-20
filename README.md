@@ -21,14 +21,14 @@ The analysis is based on the `minn38` dataset, which includes:
 
 ### Methodology
 
-### For Log-Linear Models
+#### For Log-Linear Models
 1. **Initial Model Building:** Start with minimal models assuming independence and then gradually add interaction terms based on residual deviance and AIC.
 2. **Stepwise Model Selection:** Use the `step()` function to perform a stepwise selection to find a more optimal model by AIC.
 3. **Model Refinement:** Utilize `drop1()` and `add1()` to explore nearby models that might offer better interpretability or significance.
 4. **Final Model Selection:** Choose the final model based on AIC, log-likelihood tests, and interpretability.
 5. **Presentation of Results:** Estimated cell probabilities are presented to show the effect of the factors and their interactions.
 
-### For Proportional Odds Models
+#### For Proportional Odds Models
 1. **Model Fitting:** Fit both interaction and additive proportional odds models to predict `hs` based on `fol` and `sex`.
 2. **Model Selection:** Compare the models based on residual deviance, AIC, and likelihood ratio tests.
 3. **Chosen Model:** Select the additive model for its interpretability and comparable performance.
