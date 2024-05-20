@@ -3,7 +3,7 @@ This project conducts a comprehensive analysis of the `minn38` dataset available
 
 ## Objective
 
-The `minn38` dataset contains information about Minnesota high school graduates of 1938, classified according to four factors (`phs`, `hs`, `fol`, `sex`). This analysis aims to explore:
+The [minn38 dataset](https://www.rdocumentation.org/packages/MASS/versions/7.3-60.0.1/topics/minn38) contains information about Minnesota high school graduates of 1938, classified according to four factors (`phs`, `hs`, `fol`, `sex`). This analysis aims to explore:
 1. How `phs` is affected by `hs`, `fol`, and `sex`.
 2. How the joint status of `phs` and `hs` is influenced by `fol` and `sex`.
 3. How `hs` is influenced by `fol` and `sex` using proportional odds models.
